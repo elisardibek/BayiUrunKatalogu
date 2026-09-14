@@ -1,0 +1,14 @@
+[
+  {
+    "Id": 1,
+    "KullaniciAdi": "admin",
+    "SifreHash": "$2a$11$EM/TUqJ05uQaMrWsnQaqceMdkbXPny2wQtz7au/Q918qL5T9LTccG",
+    "Rol": 0
+  },
+  {
+    "Id": 2,
+    "KullaniciAdi": "bayi1",
+    "SifreHash": "$2a$11$EM/TUqJ05uQaMrWsnQaqceMdkbXPny2wQtz7au/Q918qL5T9LTccG",
+    "Rol": 1
+  }
+]

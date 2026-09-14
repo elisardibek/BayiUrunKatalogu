@@ -1,10 +1,13 @@
+using Microsoft.AspNetCore.Authorization;
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using BayiUrunKatalogu.Models;
 using BayiUrunKatalogu.Services;
-namespace BayiUrunKatalogu.Controllers;
 
-  public class AdminController : Controller
+namespace BayiUrunKatalogu.Controllers
+{
+ [Authorize(Roles = "Admin")]
+ public class AdminController : Controller
  {
     private readonly UrunServisi _urunServisi;
     public AdminController(UrunServisi urunServisi)
@@ -23,3 +26,4 @@ namespace BayiUrunKatalogu.Controllers;
         return RedirectToAction("Index","Urun");
     }
  }
+}
