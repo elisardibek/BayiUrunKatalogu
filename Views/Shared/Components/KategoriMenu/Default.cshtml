@@ -1,0 +1,13 @@
+@model List<string>
+
+<div class="dropdown">
+    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+        Kategoriler
+    </button>
+    <ul class="dropdown-menu">
+        @foreach (var kategori in Model)
+        {
+            <li><a class="dropdown-item" asp-controller="Urun" asp-action="Kategori" asp-route-kategori="@kategori">@kategori</a></li>
+        }
+    </ul>
+</div>

@@ -20,6 +20,11 @@ namespace BayiUrunKatalogu.Controllers
             var sonuclar =_urunServisi.Ara(q);
             return View("Index", sonuclar);
         }
+        public IActionResult Kategori(string kategori)
+{
+    var sonuclar = _urunServisi.KategoriyeGoreGetir(kategori);
+    return View("Index", sonuclar);
+}
         public IActionResult Detay(int id)
         {
             var urun =_urunServisi.UrunGetirById(id);

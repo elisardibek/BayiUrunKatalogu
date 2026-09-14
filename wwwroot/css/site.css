@@ -15,11 +15,22 @@
   --text-muted: #8FA69C;
   --border: #1A2620;
 }
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
   background-color: var(--bg);
   color: var(--text);
   font-family: 'Inter', sans-serif;
-  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
 }
 
 h1, h2, h3, h4 {
@@ -70,9 +81,14 @@ input, textarea {
 }
 
 .footer {
+  padding: 12px 0;
   background-color: var(--panel);
   border-top: 1px solid var(--border);
   color: var(--text-muted);
+}
+
+body {
+  padding-bottom: 60px;
 }
 .badge-kategori {
   display: inline-block;
@@ -86,4 +102,129 @@ input, textarea {
 
 .navbar-brand:hover {
   color: var(--neon-pink) !important;
+}
+/* Navbar düzeni */
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-nav .nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 1.4rem;
+}
+
+/* Kategoriler dropdown butonu */
+.dropdown .btn {
+  background-color: transparent;
+  color: var(--text);
+  border: 1px solid var(--border);
+  padding: 6px 16px;
+}
+
+.dropdown .btn:hover {
+  border-color: var(--neon-pink);
+  color: var(--neon-pink);
+}
+.dropdown .btn:focus,
+.dropdown .btn:active,
+.dropdown .btn.show {
+  background-color: transparent !important;
+  border-color: var(--neon-pink) !important;
+  color: var(--neon-pink) !important;
+  box-shadow: none !important;
+}
+
+/* Dropdown menü (açılan liste) */
+.dropdown-menu {
+  background-color: var(--panel);
+  border: 1px solid var(--border);
+}
+
+.dropdown-item {
+  color: var(--text);
+}
+
+.dropdown-item:hover {
+  background-color: var(--bg) !important;
+  color: var(--neon-pink) !important;
+  text-decoration: none !important;
+}
+
+/* Navbar sağdaki kullanıcı bilgisi ve linkler */
+.navbar-nav .nav-link {
+  padding: 6px 4px;
+}
+.container-fluid {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-toggler {
+  display: none;
+}
+
+.navbar-collapse {
+  display: flex !important;
+  flex-basis: auto;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: flex-end;
+  gap: 20px;
+}
+.navbar-nav .nav-link:hover {
+  color: var(--neon-pink) !important;
+}
+/* Form düzeni */
+form {
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+form label {
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+form input,
+form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: var(--neon);
+}
+
+form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+form button[type="submit"] {
+  align-self: flex-start;
+  border-radius: 4px;
+  margin-top: 8px;
 }

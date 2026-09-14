@@ -39,5 +39,25 @@ namespace BayiUrunKatalogu.Services
                              || u.Kategori.Contains(aranan, StringComparison.OrdinalIgnoreCase))
                     .ToList();
             }
-    }
+            public List<Urun> KategoriyeGoreGetir(string kategori)
+{
+    var urunler = TumUrunleriGetir();
+
+    if (string.IsNullOrEmpty(kategori))
+        return urunler;
+
+    return urunler
+        .Where(u => u.Kategori.Equals(kategori, StringComparison.OrdinalIgnoreCase))
+        .ToList();
+}
+
+ public List<string> TumKategorileriGetir()
+  {
+    var urunler = TumUrunleriGetir();
+    return urunler
+        .Select(u => u.Kategori)
+        .Distinct()
+        .ToList();
+   } 
+ }
 }
