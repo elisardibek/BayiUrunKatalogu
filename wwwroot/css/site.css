@@ -1,31 +1,89 @@
-html {
-  font-size: 14px;
+:root {
+  --bg: #0B1210;
+  --panel: #111C18;
+  --neon: #39FF14;
+  --text: #F5FFF8;
+  --text-muted: #8FA69C;
+  --border: #1A2620;
 }
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+:root {
+  --bg: #0B1210;
+  --panel: #111C18;
+  --neon: #39FF14;
+  --neon-pink: #FF2E9F;
+  --text: #F5FFF8;
+  --text-muted: #8FA69C;
+  --border: #1A2620;
 }
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 body {
-  margin-bottom: 60px;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  margin: 0;
 }
 
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
+h1, h2, h3, h4 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  color: var(--text);
 }
 
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
+a {
+  color: var(--neon);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  background-color: var(--panel) !important;
+  border-bottom: 1px solid var(--border);
+}
+
+.navbar-brand, .nav-link {
+  color: var(--text) !important;
+  font-family: 'Oswald', sans-serif;
+}
+
+button, .btn {
+  background-color: var(--neon);
+  color: var(--bg);
+  border: none;
+  padding: 8px 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover, .btn:hover {
+  background-color: #2ecc0f;
+}
+
+input, textarea {
+  background-color: var(--panel);
+  color: var(--text);
+  border: 1px solid var(--border);
+  padding: 8px;
+  font-family: 'Inter', sans-serif;
+}
+
+.footer {
+  background-color: var(--panel);
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+}
+.badge-kategori {
+  display: inline-block;
+  background-color: transparent;
+  color: var(--neon-pink);
+  border: 1px solid var(--neon-pink);
+  padding: 2px 10px;
+  font-size: 0.8rem;
+  font-family: 'Oswald', sans-serif;
+}
+
+.navbar-brand:hover {
+  color: var(--neon-pink) !important;
 }
