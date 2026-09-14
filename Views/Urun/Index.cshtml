@@ -1,0 +1,19 @@
+@model List<BayiUrunKatalogu.Models.Urun>
+
+<h2>Ürünler</h2>
+
+<form asp-action="Ara" method="get">
+    <input type="text" name="q" placeholder="Ürün ara..." />
+    <button type="submit">Ara</button>
+</form>
+
+<div>
+    @foreach (var urun in Model)
+    {
+        <div>
+            <h4>@urun.UrunAdi</h4>
+            <p>@urun.Kategori - @urun.Fiyat TL</p>
+            <a asp-action="Detay" asp-route-id="@urun.Id">Detaya Git</a>
+        </div>
+    }
+</div>

@@ -1,3 +1,5 @@
+namespace BayiUrunKatalogu.Models
+{
 public class Urun
 {
     public int Id { get; set; }
@@ -9,4 +11,5 @@ public class Urun
     public decimal Fiyat { get; set; }
     public int StokAdedi { get; set; }
     public string GorselYolu { get; set; }
+}
 }

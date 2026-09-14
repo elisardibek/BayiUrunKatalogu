@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 1,
+    "UrunAdi": "Kablosuz Kulakl\u0131k",
+    "UrunKodu": "ELK001",
+    "Aciklama": "Bluetooth 5.0 destekli, 20 saat pil \u00F6m\u00FCrl\u00FC kulakl\u0131k.",
+    "Kategori": "Elektronik",
+    "Marka": "SoundMax",
+    "Fiyat": 899.90,
+    "StokAdedi": 25,
+    "GorselYolu": "kulaklik.jpg"
+  },
+  {
+    "Id": 2,
+    "UrunAdi": "Spor Ayakkab\u0131",
+    "UrunKodu": "GYM045",
+    "Aciklama": "Nefes alabilen kuma\u015F, ko\u015Fu ve fitness i\u00E7in uygun.",
+    "Kategori": "Giyim",
+    "Marka": "RunFit",
+    "Fiyat": 1249.00,
+    "StokAdedi": 40,
+    "GorselYolu": "ayakkabi.jpg"
+  },
+  {
+    "Id": 3,
+    "UrunAdi": "Termos",
+    "UrunKodu": "EVK012",
+    "Aciklama": "Paslanmaz \u00E7elik, 12 saat s\u0131cak/so\u011Fuk tutma.",
+    "Kategori": "Ev Ya\u015Fam",
+    "Marka": "ThermoLife",
+    "Fiyat": 349.50,
+    "StokAdedi": 60,
+    "GorselYolu": "termos.jpg"
+  },
+  {
+    "Id": 4,
+    "UrunAdi": "top",
+    "UrunKodu": null,
+    "Aciklama": null,
+    "Kategori": null,
+    "Marka": null,
+    "Fiyat": 0,
+    "StokAdedi": 0,
+    "GorselYolu": null
+  }
+]

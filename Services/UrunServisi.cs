@@ -3,10 +3,11 @@ using System.Text.Json;
 
 namespace BayiUrunKatalogu.Services
 {
-    public class UrunServisi{
-        private readonly string _dosyaYolu= "Data/Urunler.json";
+           public class UrunServisi{
+           private readonly string _dosyaYolu= "Data/Urunler.json";
 
-        public List<Urun> TumUrunleriGetir(){
+            public List<Urun> TumUrunleriGetir()
+            {
             if(!File.Exists(_dosyaYolu))
              return new List<Urun>();    
 
@@ -14,7 +15,8 @@ namespace BayiUrunKatalogu.Services
             return JsonSerializer.Deserialize<List<Urun>>(json) ?? new List<Urun>();   
             }
 
-            public void UrunEkle(Urun yeniUrun){
+            public void UrunEkle(Urun yeniUrun)
+            {
             var Urunler = TumUrunleriGetir();
             yeniUrun.Id= Urunler.Count > 0 ? Urunler.Max(k=> k.Id) +1 : 1;
             Urunler.Add(yeniUrun);

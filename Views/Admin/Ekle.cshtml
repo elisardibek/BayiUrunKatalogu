@@ -1,0 +1,40 @@
+@model BayiUrunKatalogu.Models.Urun
+
+<h2>Yeni Ürün Ekle</h2>
+
+<form asp-action="Ekle" method="post">
+    <div>
+        <label>Ürün Adı</label>
+        <input asp-for="UrunAdi" />
+    </div>
+    <div>
+        <label>Ürün Kodu</label>
+        <input asp-for="UrunKodu" />
+    </div>
+    <div>
+        <label>Açıklama</label>
+        <textarea asp-for="Aciklama"></textarea>
+    </div>
+    <div>
+        <label>Kategori</label>
+        <input asp-for="Kategori" />
+    </div>
+    <div>
+        <label>Marka</label>
+        <input asp-for="Marka" />
+    </div>
+    <div>
+        <label>Fiyat</label>
+        <input asp-for="Fiyat" />
+    </div>
+    <div>
+        <label>Stok Adedi</label>
+        <input asp-for="StokAdedi" />
+    </div>
+    <div>
+        <label>Görsel Dosya Adı</label>
+        <input asp-for="GorselYolu" />
+    </div>
+
+    <button type="submit">Kaydet</button>
+</form>

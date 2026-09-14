@@ -1,8 +1,10 @@
+using BayiUrunKatalogu.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddScoped<KullaniciServisi>();
+builder.Services.AddScoped<UrunServisi>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
