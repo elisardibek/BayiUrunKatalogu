@@ -84,7 +84,7 @@ input, textarea {
   padding: 12px 0;
   background-color: var(--panel);
   border-top: 1px solid var(--border);
-  color: var(--text-muted);
+  color: var(--text);
 }
 
 body {

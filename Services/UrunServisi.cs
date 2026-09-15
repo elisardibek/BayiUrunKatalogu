@@ -35,8 +35,8 @@ namespace BayiUrunKatalogu.Services
             {
                 var urunler = TumUrunleriGetir();
                 return urunler
-                    .Where(u => u.UrunAdi.Contains(aranan, StringComparison.OrdinalIgnoreCase) 
-                             || u.Kategori.Contains(aranan, StringComparison.OrdinalIgnoreCase))
+                    .Where(u => (u.UrunAdi != null && u.UrunAdi.Contains(aranan, StringComparison.OrdinalIgnoreCase))
+                             || (u.Kategori != null && u.Kategori.Contains(aranan, StringComparison.OrdinalIgnoreCase)))
                     .ToList();
             }
             public List<Urun> KategoriyeGoreGetir(string kategori)
@@ -47,17 +47,18 @@ namespace BayiUrunKatalogu.Services
         return urunler;
 
     return urunler
-        .Where(u => u.Kategori.Equals(kategori, StringComparison.OrdinalIgnoreCase))
-        .ToList();
+        .Where(u => u.Kategori != null && u.Kategori.Equals(kategori, StringComparison.OrdinalIgnoreCase))
+                    .ToList();
 }
 
  public List<string> TumKategorileriGetir()
   {
     var urunler = TumUrunleriGetir();
     return urunler
-        .Select(u => u.Kategori)
-        .Distinct()
-        .ToList();
+        .Where(u => u.Kategori != null)
+                    .Select(u => u.Kategori)
+                    .Distinct()
+                    .ToList();
    } 
  }
 }
