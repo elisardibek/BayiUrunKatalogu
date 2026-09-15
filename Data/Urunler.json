@@ -122,5 +122,43 @@
     { "Ad": "Siyah", "GorselYolu": "nayki-canta-siyah.png" },
     { "Ad": "Beyaz", "GorselYolu": "nayki-canta-beyaz.png" }
   ]
+},
+{
+  "Id": 9,
+  "UrunAdi": "Nayki Kısa Kollu Tişört",
+  "UrunKodu": "GYM053",
+  "Aciklama": "%100 pamuklu, nefes alabilir kumaştan günlük kullanım tişört.",
+  "Kategori": "Giyim",
+  "Marka": "Nayki",
+  "Fiyat": 449.00,
+  "StokAdedi": 38,
+  "GorselYolu": "nayki-tisort-kirmizi.png",
+  "Renkler": [
+    { "Ad": "Kirmizi", "GorselYolu": "nayki-tisort-kirmizi.png" },
+    { "Ad": "Siyah", "GorselYolu": "nayki-tisort-siyah.png" },
+    { "Ad": "Beyaz", "GorselYolu": "nayki-tisort-beyaz.png" },
+    { "Ad": "Gri", "GorselYolu": "nayki-tisort-gri.png" }
+  ]
+},
+{
+  "Id": 10,
+  "UrunAdi": "Nayki Bone",
+  "UrunKodu": "GYM054",
+  "Aciklama": "Hafif ve rahat, sıcak tutan günlük kullanım bonesi.",
+  "Kategori": "Giyim",
+  "Marka": "Nayki",
+  "Fiyat": 349.00,
+  "StokAdedi": 42,
+  "GorselYolu": "nayki-bone-siyah.png",
+  "Renkler": [
+    { "Ad": "Pembe", "GorselYolu": "nayki-bone-pembe.png" },
+    { "Ad": "Siyah", "GorselYolu": "nayki-bone-siyah.png" },
+    { "Ad": "Yesil", "GorselYolu": "nayki-bone-yesil.png" },
+    { "Ad": "Beyaz", "GorselYolu": "nayki-bone-beyaz.png" },
+    { "Ad": "Gri", "GorselYolu": "nayki-bone-gri.png" },
+    { "Ad": "Kirmizi", "GorselYolu": "nayki-bone-kirmizi.png" },
+    { "Ad": "Mavi", "GorselYolu": "nayki-bone-mavi.png" }
+  ]
 }
+
 ]

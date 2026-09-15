@@ -7,8 +7,7 @@ namespace BayiUrunKatalogu.Models
     { "siyah", "#000000" },
     { "beyaz", "#F0EBE0" },
     { "kar beyazi", "#FFFFFF" },
-    { "kirmizi", "#E63946" },
-    { "kırmızı", "#E63946" },
+    
     { "yesil", "#2A9D8F" },
     { "yeşil", "#2A9D8F" },
     { "mavi", "#457B9D" },
@@ -19,7 +18,7 @@ namespace BayiUrunKatalogu.Models
     { "kahverengi", "#6F4E37" },
     { "turuncu", "#F77F00" },
     { "mor", "#7B2CBF" },
-    { "lacivert", "#1D3557" }
+    { "lacivert", "#1D3557" },
     { "kirmizi", "#E63946" },
 };
 
