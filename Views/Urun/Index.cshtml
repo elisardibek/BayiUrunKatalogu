@@ -2,18 +2,38 @@
 
 <h2>Ürünler</h2>
 
-<form asp-action="Ara" method="get">
+<form asp-action="Ara" method="get" class="arama-formu">
     <input type="text" name="q" placeholder="Ürün ara..." />
     <button type="submit">Ara</button>
 </form>
 
-<div>
+<div class="urun-grid">
     @foreach (var urun in Model)
     {
-        <div>
-            <h4>@urun.UrunAdi</h4>
-            <p>@urun.Kategori - @urun.Fiyat TL</p>
-            <a asp-action="Detay" asp-route-id="@urun.Id">Detaya Git</a>
+        <div class="urun-karti">
+            <div class="urun-gorsel">
+                <img id="gorsel-@urun.Id" src="~/images/urunler/@urun.GorselYolu" alt="@urun.UrunAdi" onerror="this.src='/images/urunler/placeholder.jpg'" />
+            </div>
+            <div class="urun-bilgi">
+                <span class="badge-kategori">@urun.Kategori</span>
+                <h4>@urun.UrunAdi</h4>
+                <p class="urun-fiyat">@urun.Fiyat.ToString("N2") TL</p>
+
+                @if (urun.Renkler != null && urun.Renkler.Count > 0)
+                {
+                    <div class="renk-secenekleri">
+                        @foreach (var renk in urun.Renkler)
+                        {
+                            <span class="renk-dairesi"
+                                  style="background-color: @BayiUrunKatalogu.Models.RenkYardimcisi.Kod(renk.Ad);"
+                                  title="@renk.Ad"
+                                  onclick="document.getElementById('gorsel-@urun.Id').src='/images/urunler/@renk.GorselYolu'"></span>
+                        }
+                    </div>
+                }
+
+                <a asp-action="Detay" asp-route-id="@urun.Id" class="detay-link">Detaya Git</a>
+            </div>
         </div>
     }
 </div>

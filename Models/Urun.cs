@@ -11,5 +11,6 @@ public class Urun
     public decimal Fiyat { get; set; }
     public int StokAdedi { get; set; }
     public string GorselYolu { get; set; }
+    public List<RenkSecenegi> Renkler { get; set; } = new List<RenkSecenegi>();
 }
 }

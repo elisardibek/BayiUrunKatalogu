@@ -20,10 +20,28 @@ namespace BayiUrunKatalogu.Controllers
         return View();
     }
      [HttpPost]
-    public IActionResult Ekle(Urun urun)
+public IActionResult Ekle(Urun urun, string renklerText)
+{
+    if (!string.IsNullOrWhiteSpace(renklerText))
     {
-        _urunServisi.UrunEkle(urun);
-        return RedirectToAction("Index","Urun");
+        urun.Renkler = renklerText
+            .Split(',')
+            .Select(parca => parca.Trim())
+            .Where(parca => parca.Contains(':'))
+            .Select(parca =>
+            {
+                var bilesenler = parca.Split(':');
+                return new RenkSecenegi
+                {
+                    Ad = bilesenler[0].Trim(),
+                    GorselYolu = bilesenler[1].Trim()
+                };
+            })
+            .ToList();
     }
+
+    _urunServisi.UrunEkle(urun);
+    return RedirectToAction("Index", "Urun");
+  }
  }
 }

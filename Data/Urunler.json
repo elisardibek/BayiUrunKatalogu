@@ -10,7 +10,7 @@
     "StokAdedi": 25,
     "GorselYolu": "kulaklik.jpg"
   },
-  {
+    {
     "Id": 2,
     "UrunAdi": "Spor Ayakkab\u0131",
     "UrunKodu": "GYM045",
@@ -19,7 +19,15 @@
     "Marka": "RunFit",
     "Fiyat": 1249.00,
     "StokAdedi": 40,
-    "GorselYolu": "ayakkabi.jpg"
+    "GorselYolu": "nayki-beyaz.png",
+    "Renkler": [
+      { "Ad": "Beyaz", "GorselYolu": "nayki-beyaz.png" },
+      { "Ad": "Kar Beyazi", "GorselYolu": "nayki-kar.png" },
+      { "Ad": "Siyah", "GorselYolu": "nayki-siyah.png" },
+      { "Ad": "Yesil", "GorselYolu": "nayki-yesil.png" },
+      { "Ad": "Gri", "GorselYolu": "nayki-gri.png" },
+      { "Ad": "Pembe", "GorselYolu": "nayki-pembe.png" }
+    ]
   },
   {
     "Id": 3,
