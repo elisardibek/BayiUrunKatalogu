@@ -20,6 +20,7 @@ namespace BayiUrunKatalogu.Models
     { "turuncu", "#F77F00" },
     { "mor", "#7B2CBF" },
     { "lacivert", "#1D3557" }
+    { "kirmizi", "#E63946" },
 };
 
         public static string Kod(string renkAdi)

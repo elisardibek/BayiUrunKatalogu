@@ -1,20 +1,24 @@
 [
   {
     "Id": 1,
-    "UrunAdi": "Kablosuz Kulakl\u0131k",
+    "UrunAdi": "Beatix Sound Pro",
     "UrunKodu": "ELK001",
-    "Aciklama": "Bluetooth 5.0 destekli, 20 saat pil \u00F6m\u00FCrl\u00FC kulakl\u0131k.",
+    "Aciklama": "Bluetooth 5.0 destekli, 20 saat pil ömürlü kulaklık.",
     "Kategori": "Elektronik",
-    "Marka": "SoundMax",
+    "Marka": "Beatix",
     "Fiyat": 899.90,
     "StokAdedi": 25,
-    "GorselYolu": "kulaklik.jpg"
+    "GorselYolu": "beatix-lacivert.png",
+    "Renkler": [
+      { "Ad": "Lacivert", "GorselYolu": "beatix-lacivert.png" },
+      { "Ad": "Beyaz", "GorselYolu": "beatix-beyaz.png" }
+    ]
   },
-    {
+  {
     "Id": 2,
-    "UrunAdi": "Spor Ayakkab\u0131",
+    "UrunAdi": "Spor Ayakkabı",
     "UrunKodu": "GYM045",
-    "Aciklama": "Nefes alabilen kuma\u015F, ko\u015Fu ve fitness i\u00E7in uygun.",
+    "Aciklama": "Nefes alabilen kumaş, koşu ve fitness için uygun.",
     "Kategori": "Giyim",
     "Marka": "RunFit",
     "Fiyat": 1249.00,
@@ -31,24 +35,92 @@
   },
   {
     "Id": 3,
-    "UrunAdi": "Termos",
+    "UrunAdi": "Scanley Flow Tumbler",
     "UrunKodu": "EVK012",
-    "Aciklama": "Paslanmaz \u00E7elik, 12 saat s\u0131cak/so\u011Fuk tutma.",
-    "Kategori": "Ev Ya\u015Fam",
-    "Marka": "ThermoLife",
+    "Aciklama": "Paslanmaz çelik, 12 saat sıcak/soğuk tutma.",
+    "Kategori": "Ev Yaşam",
+    "Marka": "Scanley",
     "Fiyat": 349.50,
     "StokAdedi": 60,
-    "GorselYolu": "termos.jpg"
+    "GorselYolu": "scanley-beyaz.png",
+    "Renkler": [
+      { "Ad": "Beyaz", "GorselYolu": "scanley-beyaz.png" },
+      { "Ad": "Pembe", "GorselYolu": "scanley-pembe.png" },
+      { "Ad": "Turuncu", "GorselYolu": "scanley-turuncu.png" },
+      { "Ad": "Yesil", "GorselYolu": "scanley-yesil.png" }
+    ]
   },
   {
-    "Id": 4,
-    "UrunAdi": "top",
-    "UrunKodu": null,
-    "Aciklama": null,
-    "Kategori": null,
-    "Marka": null,
-    "Fiyat": 0,
-    "StokAdedi": 0,
-    "GorselYolu": null
-  }
+  "Id": 4,
+  "UrunAdi": "Jorden Flight Ball",
+  "UrunKodu": "SPR027",
+  "Aciklama": "Güçlü tutuşlu, iç/dış mekan kullanımına uygun dayanıklı basketbol topu.",
+  "Kategori": "Fitness",
+  "Marka": "Jorden",
+  "Fiyat": 899.00,
+  "StokAdedi": 20,
+  "GorselYolu": "jorden-top.png"
+},
+{
+  "Id": 5,
+  "UrunAdi": "Nayki Hoodie",
+  "UrunKodu": "GYM049",
+  "Aciklama": "Yumuşak kumaşlı, sıcak tutan günlük kullanım hoodie.",
+  "Kategori": "Giyim",
+  "Marka": "Nayki",
+  "Fiyat": 1099.00,
+  "StokAdedi": 30,
+  "GorselYolu": "nayki-hoodie-gri.png",
+  "Renkler": [
+    { "Ad": "Gri", "GorselYolu": "nayki-hoodie-gri.png" },
+    { "Ad": "Kirmizi", "GorselYolu": "nayki-hoodie-kirmizi.png" },
+    { "Ad": "Siyah", "GorselYolu": "nayki-hoodie-siyah.png" },
+    { "Ad": "Beyaz", "GorselYolu": "nayki-hoodie-beyaz.png" }
+  ]
+},
+{
+  "Id": 6,
+  "UrunAdi": "Nayki Eşofman Altı",
+  "UrunKodu": "GYM050",
+  "Aciklama": "Esnek kumaşlı, rahat kalıplı günlük eşofman altı.",
+  "Kategori": "Giyim",
+  "Marka": "Nayki",
+  "Fiyat": 899.00,
+  "StokAdedi": 28,
+  "GorselYolu": "nayki-esofman-gri.png",
+  "Renkler": [
+    { "Ad": "Gri", "GorselYolu": "nayki-esofman-gri.png" },
+    { "Ad": "Kirmizi", "GorselYolu": "nayki-esofman-kirmizi.png" },
+    { "Ad": "Siyah", "GorselYolu": "nayki-esofman-siyah.png" },
+    { "Ad": "Beyaz", "GorselYolu": "nayki-esofman-beyaz.png" }
+  ]
+},
+{
+  "Id": 7,
+  "UrunAdi": "Nayki Spor Çorap Seti (3'lü)",
+  "UrunKodu": "GYM051",
+  "Aciklama": "Nefes alabilir kumaşlı, destekli yapıda 3'lü spor çorap seti.",
+  "Kategori": "Giyim",
+  "Marka": "Nayki",
+  "Fiyat": 249.00,
+  "StokAdedi": 45,
+  "GorselYolu": "nayki-corap.png"
+},
+{
+  "Id": 8,
+  "UrunAdi": "Nayki Sırt Çantası",
+  "UrunKodu": "GYM052",
+  "Aciklama": "Laptop bölmeli, suya dayanıklı kumaştan geniş hacimli sırt çantası.",
+  "Kategori": "Giyim",
+  "Marka": "Nayki",
+  "Fiyat": 799.00,
+  "StokAdedi": 22,
+  "GorselYolu": "nayki-canta-lacivert.png",
+  "Renkler": [
+    { "Ad": "Lacivert", "GorselYolu": "nayki-canta-lacivert.png" },
+    { "Ad": "Pembe", "GorselYolu": "nayki-canta-pembe.png" },
+    { "Ad": "Siyah", "GorselYolu": "nayki-canta-siyah.png" },
+    { "Ad": "Beyaz", "GorselYolu": "nayki-canta-beyaz.png" }
+  ]
+}
 ]
