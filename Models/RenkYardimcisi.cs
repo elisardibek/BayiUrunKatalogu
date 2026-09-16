@@ -7,7 +7,7 @@ namespace BayiUrunKatalogu.Models
     { "siyah", "#000000" },
     { "beyaz", "#F0EBE0" },
     { "kar beyazi", "#FFFFFF" },
-    
+    { "bordo", "#800020" },
     { "yesil", "#2A9D8F" },
     { "yeşil", "#2A9D8F" },
     { "mavi", "#457B9D" },

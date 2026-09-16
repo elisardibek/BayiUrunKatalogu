@@ -159,6 +159,111 @@
     { "Ad": "Kirmizi", "GorselYolu": "nayki-bone-kirmizi.png" },
     { "Ad": "Mavi", "GorselYolu": "nayki-bone-mavi.png" }
   ]
+},
+{
+  "Id": 11,
+  "UrunAdi": "Adisad Hydro One",
+  "UrunKodu": "EVK015",
+  "Aciklama": "Sızdırmaz kapaklı, hafif gövdeli günlük kullanım matarası.",
+  "Kategori": "Ev Yaşam",
+  "Marka": "Adisad",
+  "Fiyat": 599.00,
+  "StokAdedi": 32,
+  "GorselYolu": "adisad-termos-lacivert.png",
+  "Renkler": [
+    { "Ad": "Lacivert", "GorselYolu": "adisad-termos-lacivert.png" },
+    { "Ad": "Siyah", "GorselYolu": "adisad-termos-siyah.png" },
+    { "Ad": "Yesil", "GorselYolu": "adisad-termos-yesil.png" },
+    { "Ad": "Beyaz", "GorselYolu": "adisad-termos-beyaz.png" }
+  ]
+},
+{
+  "Id": 12,
+  "UrunAdi": "Adisad Samba One",
+  "UrunKodu": "GYM055",
+  "Aciklama": "Süet burunlu, konforlu tabanlı şehir tarzı spor ayakkabı.",
+  "Kategori": "Giyim",
+  "Marka": "Adisad",
+  "Fiyat": 1799.00,
+  "StokAdedi": 18,
+  "GorselYolu": "adisad-sneaker-lacivert.png",
+  "Renkler": [
+    { "Ad": "Bordo", "GorselYolu": "adisad-sneaker-bordo.png" },
+    { "Ad": "Lacivert", "GorselYolu": "adisad-sneaker-lacivert.png" },
+    { "Ad": "Siyah", "GorselYolu": "adisad-sneaker-siyah.png" },
+    { "Ad": "Yesil", "GorselYolu": "adisad-sneaker-yesil.png" }
+  ]
+},
+{
+  "Id": 13,
+  "UrunAdi": "Airpodz Pro Kulaklık",
+  "UrunKodu": "TEK015",
+  "Aciklama": "Aktif gürültü engelleme, dokunmatik kontrol ve uzun pil ömürlü kulaklık.",
+  "Kategori": "Elektronik",
+  "Marka": "Airpodz",
+  "Fiyat": 2499.00,
+  "StokAdedi": 27,
+  "GorselYolu": "airpodz.png"
+},
+{
+  "Id": 14,
+  "UrunAdi": "Panther Flow Mat",
+  "UrunKodu": "SPR028",
+  "Aciklama": "Katlanabilir, kaymaz yüzeyli, ev ve stüdyo kullanımına uygun yoga matı.",
+  "Kategori": "Fitness",
+  "Marka": "Panther",
+  "Fiyat": 399.00,
+  "StokAdedi": 30,
+  "GorselYolu": "panther-yogamat-pembe.png",
+  "Renkler": [
+    { "Ad": "Pembe", "GorselYolu": "panther-yogamat-pembe.png" },
+    { "Ad": "Yesil", "GorselYolu": "panther-yogamat-yesil.png" }
+  ]
+},
+{
+  "Id": 15,
+  "UrunAdi": "JiBieL Boombox Hoparlör",
+  "UrunKodu": "TEK016",
+  "Aciklama": "Güçlü bas, suya dayanıklı ve taşınabilir tasarımlı bluetooth hoparlör.",
+  "Kategori": "Elektronik",
+  "Marka": "JiBieL",
+  "Fiyat": 1299.00,
+  "StokAdedi": 20,
+  "GorselYolu": "JiBieL.png"
+},
+{
+  "Id": 16,
+  "UrunAdi": "Reebook 6'lı Dambıl Seti",
+  "UrunKodu": "SPR029",
+  "Aciklama": "2x1kg, 2x2kg, 2x3kg dambıllardan oluşan, taşıma çantalı ev spor seti.",
+  "Kategori": "Fitness",
+  "Marka": "Reebook",
+  "Fiyat": 1099.00,
+  "StokAdedi": 16,
+  "GorselYolu": "siyah-dambil.png",
+  "Renkler": [
+    { "Ad": "Siyah", "GorselYolu": "siyah-dambil.png" },
+    { "Ad": "Yesil", "GorselYolu": "yesil-dambil.png" },
+    { "Ad": "Mor", "GorselYolu": "lila-dambil.png" },
+    { "Ad": "Mavi", "GorselYolu": "mavi-dambil.png" }
+  ]
+},
+{
+  "Id": 17,
+  "UrunAdi": "Kolombia Kişisel Bakım Çantası",
+  "UrunKodu": "EVK016",
+  "Aciklama": "Su geçirmez kumaştan, çoklu bölmeli kompakt kişisel bakım çantası.",
+  "Kategori": "Ev Yaşam",
+  "Marka": "Kolombia",
+  "Fiyat": 449.00,
+  "StokAdedi": 24,
+  "GorselYolu": "bia-ssiyah-canta.png",
+  "Renkler": [
+    { "Ad": "Kahverengi", "GorselYolu": "bia-kahve-canta.png" },
+    { "Ad": "Kirmizi", "GorselYolu": "bia-kirmizi-canta.png" },
+    { "Ad": "Siyah", "GorselYolu": "bia-ssiyah-canta.png" },
+    { "Ad": "Beyaz", "GorselYolu": "bia-beyaz-canta.png" },
+    { "Ad": "Gri", "GorselYolu": "bia-gri-canta.png" }
+  ]
 }
-
 ]
