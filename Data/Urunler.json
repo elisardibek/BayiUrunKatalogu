@@ -265,5 +265,81 @@
     { "Ad": "Beyaz", "GorselYolu": "bia-beyaz-canta.png" },
     { "Ad": "Gri", "GorselYolu": "bia-gri-canta.png" }
   ]
-}
+},
+  {
+    "Id": 18,
+    "UrunAdi": "Fitbiy Nabız Bilekliği",
+    "UrunKodu": "SPR030",
+    "Aciklama": "Nabız takibi, su geçirmezlik ve 7 gün pil ömrüne sahip akıllı fitness bilekliği.",
+    "Kategori": "Fitness",
+    "Marka": "Fitbiy",
+    "Fiyat": 799.0,
+    "StokAdedi": 20,
+    "GorselYolu": "fitbiy-nabiz-bileklik-siyah.png",
+    "Renkler": [
+      {
+        "Ad": "Siyah",
+        "GorselYolu": "fitbiy-nabiz-bileklik-siyah.png"
+      },
+      {
+        "Ad": "Beyaz",
+        "GorselYolu": "fitbiy-nabiz-bileklik-beyaz.png"
+      }
+    ]
+  },
+    
+  {
+    "Id": 19,
+    "UrunAdi": "Panther Direnç Bandı Seti (3'lü)",
+    "UrunKodu": "SPR031",
+    "Aciklama": "Light, Medium ve Heavy sertlikte 3 farklı direnç bandından oluşan, dayanıklı kumaş yapılı ev antrenman seti.",
+    "Kategori": "Fitness",
+    "Marka": "Panther",
+    "Fiyat": 549.0,
+    "StokAdedi": 22,
+    "GorselYolu": "panther-diren-set.png",
+    "Renkler": []
+  },
+    
+  {
+    "Id": 20,
+    "UrunAdi": "Kolombia Seyahat Yastığı",
+    "UrunKodu": "EVK017",
+    "Aciklama": "Katlanabilir tasarımlı, yumuşak destekli, uzun yolculuklar için konforlu boyun yastığı.",
+    "Kategori": "Ev Yaşam",
+    "Marka": "Kolombia",
+    "Fiyat": 379.0,
+    "StokAdedi": 30,
+    "GorselYolu": "bia-boyunyas-kahve.png",
+    "Renkler": [
+      {
+        "Ad": "Kahverengi",
+        "GorselYolu": "bia-boyunyas-kahve.png"
+      },
+      {
+        "Ad": "Mavi",
+        "GorselYolu": "bia-boyunyas-mavi.png"
+      },
+      {
+        "Ad": "Yesil",
+        "GorselYolu": "bia-boyunyas-yesil.png"
+      },
+      {
+        "Ad": "Beyaz",
+        "GorselYolu": "bia-boyunyas-beyaz.png"
+      }
+    ]
+  }  ,
+  {
+    "Id": 21,
+    "UrunAdi": "Pear Watch Akıllı Saat",
+    "UrunKodu": "TEK001",
+    "Aciklama": "Kalp ritmi takibi, su geçirmezlik ve akıllı bildirim özellikleriyle günlük kullanım için tasarlanmış akıllı saat.",
+    "Kategori": "Elektronik",
+    "Marka": "Pear",
+    "Fiyat": 3499.0,
+    "StokAdedi": 12,
+    "GorselYolu": "pear-watch.png",
+    "Renkler": []
+  }
 ]
