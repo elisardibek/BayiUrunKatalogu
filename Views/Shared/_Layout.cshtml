@@ -20,16 +20,16 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Urun" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Urun" asp-action="Index">Anasayfa</a>
                         </li>
                         <li class="nav-item">
                             @await Component.InvokeAsync("KategoriMenu")
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Gizlilik Politikası</a>
                         </li>
 
                         @if (User.Identity.IsAuthenticated)
@@ -64,9 +64,16 @@
         </main>
     </div>
 
-    <footer class="border-top footer">
+            <footer class="border-top footer">
         <div class="container">
-            &copy; 2026 - SneaksDown - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <p>&copy; 2026 - <strong>SneaksDown</strong> - Tüm hakları saklıdır.</p>
+            <p>
+                <a asp-area="" asp-controller="Home" asp-action="Privacy">Gizlilik Politikası</a> |
+                <a asp-area="" asp-controller="Urun" asp-action="Index">Ürünler</a>
+            </p>
+            <div class="footer-iletisim">
+                <p>İletişim: info@sneaksdown.com | 0850 000 00 00</p>
+            </div>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

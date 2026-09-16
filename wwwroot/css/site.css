@@ -81,10 +81,12 @@ input, textarea {
 }
 
 .footer {
-  padding: 12px 0;
-  background-color: var(--panel);
-  border-top: 1px solid var(--border);
-  color: var(--text);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 6px 0;
 }
 
 body {
