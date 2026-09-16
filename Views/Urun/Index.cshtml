@@ -7,12 +7,17 @@
     <button type="submit">Ara</button>
 </form>
 
+@if (User.IsInRole("Admin"))
+{
+    <a asp-controller="Admin" asp-action="ExcelAktar" class="excel-aktar-btn">📊 Excel'e Aktar</a>
+}
+
 <div class="urun-grid">
     @foreach (var urun in Model)
     {
         <div class="urun-karti">
             <div class="urun-gorsel">
-                <img id="gorsel-@urun.Id" src="~/images/urunler/@urun.GorselYolu" alt="@urun.UrunAdi" onerror="this.src='/images/urunler/placeholder.jpg'" />
+                <img id="gorsel-@urun.Id"  src="~/images/urunler/@urun.GorselYolu" alt="@urun.UrunAdi" onerror="this.src='/images/urunler/placeholder.jpg'" />
             </div>
             <div class="urun-bilgi">
                 <span class="badge-kategori">@urun.Kategori</span>
@@ -33,6 +38,20 @@
                 }
 
                 <a asp-action="Detay" asp-route-id="@urun.Id" class="detay-link">Detaya Git</a>
+
+                @if (User.IsInRole("Admin"))
+                {
+                    
+                {
+                    
+                    <a asp-controller="Admin" asp-action="Duzenle" asp-route-id="@urun.Id" class="duzenle-link">Düzenle</a>
+
+                    <form asp-controller="Admin" asp-action="Sil" asp-route-id="@urun.Id" method="post" style="display:inline"
+                          onsubmit="return confirm('Bu ürünü silmek istediğinize emin misiniz?');">
+                        <button type="submit" class="sil-btn">Sil</button>
+                    </form>
+                }
+                }
             </div>
         </div>
     }

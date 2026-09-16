@@ -3,274 +3,440 @@
     "Id": 1,
     "UrunAdi": "Beatix Sound Pro",
     "UrunKodu": "ELK001",
-    "Aciklama": "Bluetooth 5.0 destekli, 20 saat pil ömürlü kulaklık.",
+    "Aciklama": "Bluetooth 5.0 destekli, 20 saat pil \u00F6m\u00FCrl\u00FC kulakl\u0131k.",
     "Kategori": "Elektronik",
     "Marka": "Beatix",
-    "Fiyat": 899.90,
-    "StokAdedi": 25,
+    "Fiyat": 1000.00,
+    "StokAdedi": 30,
     "GorselYolu": "beatix-lacivert.png",
     "Renkler": [
-      { "Ad": "Lacivert", "GorselYolu": "beatix-lacivert.png" },
-      { "Ad": "Beyaz", "GorselYolu": "beatix-beyaz.png" }
+      {
+        "Ad": "Lacivert",
+        "GorselYolu": "beatix-lacivert.png"
+      },
+      {
+        "Ad": "Beyaz",
+        "GorselYolu": "beatix-beyaz.png"
+      }
     ]
   },
   {
     "Id": 2,
-    "UrunAdi": "Spor Ayakkabı",
+    "UrunAdi": "NAYK\u0130 Air Flex",
     "UrunKodu": "GYM045",
-    "Aciklama": "Nefes alabilen kumaş, koşu ve fitness için uygun.",
+    "Aciklama": "Nefes alabilen kuma\u015F, ko\u015Fu ve fitness i\u00E7in uygun.",
     "Kategori": "Giyim",
     "Marka": "RunFit",
     "Fiyat": 1249.00,
     "StokAdedi": 40,
     "GorselYolu": "nayki-beyaz.png",
     "Renkler": [
-      { "Ad": "Beyaz", "GorselYolu": "nayki-beyaz.png" },
-      { "Ad": "Kar Beyazi", "GorselYolu": "nayki-kar.png" },
-      { "Ad": "Siyah", "GorselYolu": "nayki-siyah.png" },
-      { "Ad": "Yesil", "GorselYolu": "nayki-yesil.png" },
-      { "Ad": "Gri", "GorselYolu": "nayki-gri.png" },
-      { "Ad": "Pembe", "GorselYolu": "nayki-pembe.png" }
+      {
+        "Ad": "Beyaz",
+        "GorselYolu": "nayki-beyaz.png"
+      },
+      {
+        "Ad": "Kar Beyazi",
+        "GorselYolu": "nayki-kar.png"
+      },
+      {
+        "Ad": "Siyah",
+        "GorselYolu": "nayki-siyah.png"
+      },
+      {
+        "Ad": "Yesil",
+        "GorselYolu": "nayki-yesil.png"
+      },
+      {
+        "Ad": "Gri",
+        "GorselYolu": "nayki-gri.png"
+      },
+      {
+        "Ad": "Pembe",
+        "GorselYolu": "nayki-pembe.png"
+      }
     ]
   },
   {
     "Id": 3,
     "UrunAdi": "Scanley Flow Tumbler",
     "UrunKodu": "EVK012",
-    "Aciklama": "Paslanmaz çelik, 12 saat sıcak/soğuk tutma.",
-    "Kategori": "Ev Yaşam",
+    "Aciklama": "Paslanmaz \u00E7elik, 12 saat s\u0131cak/so\u011Fuk tutma.",
+    "Kategori": "Ev Ya\u015Fam",
     "Marka": "Scanley",
     "Fiyat": 349.50,
     "StokAdedi": 60,
     "GorselYolu": "scanley-beyaz.png",
     "Renkler": [
-      { "Ad": "Beyaz", "GorselYolu": "scanley-beyaz.png" },
-      { "Ad": "Pembe", "GorselYolu": "scanley-pembe.png" },
-      { "Ad": "Turuncu", "GorselYolu": "scanley-turuncu.png" },
-      { "Ad": "Yesil", "GorselYolu": "scanley-yesil.png" }
+      {
+        "Ad": "Beyaz",
+        "GorselYolu": "scanley-beyaz.png"
+      },
+      {
+        "Ad": "Pembe",
+        "GorselYolu": "scanley-pembe.png"
+      },
+      {
+        "Ad": "Turuncu",
+        "GorselYolu": "scanley-turuncu.png"
+      },
+      {
+        "Ad": "Yesil",
+        "GorselYolu": "scanley-yesil.png"
+      }
     ]
   },
   {
-  "Id": 4,
-  "UrunAdi": "Jorden Flight Ball",
-  "UrunKodu": "SPR027",
-  "Aciklama": "Güçlü tutuşlu, iç/dış mekan kullanımına uygun dayanıklı basketbol topu.",
-  "Kategori": "Fitness",
-  "Marka": "Jorden",
-  "Fiyat": 899.00,
-  "StokAdedi": 20,
-  "GorselYolu": "jorden-top.png"
-},
-{
-  "Id": 5,
-  "UrunAdi": "Nayki Hoodie",
-  "UrunKodu": "GYM049",
-  "Aciklama": "Yumuşak kumaşlı, sıcak tutan günlük kullanım hoodie.",
-  "Kategori": "Giyim",
-  "Marka": "Nayki",
-  "Fiyat": 1099.00,
-  "StokAdedi": 30,
-  "GorselYolu": "nayki-hoodie-gri.png",
-  "Renkler": [
-    { "Ad": "Gri", "GorselYolu": "nayki-hoodie-gri.png" },
-    { "Ad": "Kirmizi", "GorselYolu": "nayki-hoodie-kirmizi.png" },
-    { "Ad": "Siyah", "GorselYolu": "nayki-hoodie-siyah.png" },
-    { "Ad": "Beyaz", "GorselYolu": "nayki-hoodie-beyaz.png" }
-  ]
-},
-{
-  "Id": 6,
-  "UrunAdi": "Nayki Eşofman Altı",
-  "UrunKodu": "GYM050",
-  "Aciklama": "Esnek kumaşlı, rahat kalıplı günlük eşofman altı.",
-  "Kategori": "Giyim",
-  "Marka": "Nayki",
-  "Fiyat": 899.00,
-  "StokAdedi": 28,
-  "GorselYolu": "nayki-esofman-gri.png",
-  "Renkler": [
-    { "Ad": "Gri", "GorselYolu": "nayki-esofman-gri.png" },
-    { "Ad": "Kirmizi", "GorselYolu": "nayki-esofman-kirmizi.png" },
-    { "Ad": "Siyah", "GorselYolu": "nayki-esofman-siyah.png" },
-    { "Ad": "Beyaz", "GorselYolu": "nayki-esofman-beyaz.png" }
-  ]
-},
-{
-  "Id": 7,
-  "UrunAdi": "Nayki Spor Çorap Seti (3'lü)",
-  "UrunKodu": "GYM051",
-  "Aciklama": "Nefes alabilir kumaşlı, destekli yapıda 3'lü spor çorap seti.",
-  "Kategori": "Giyim",
-  "Marka": "Nayki",
-  "Fiyat": 249.00,
-  "StokAdedi": 45,
-  "GorselYolu": "nayki-corap.png"
-},
-{
-  "Id": 8,
-  "UrunAdi": "Nayki Sırt Çantası",
-  "UrunKodu": "GYM052",
-  "Aciklama": "Laptop bölmeli, suya dayanıklı kumaştan geniş hacimli sırt çantası.",
-  "Kategori": "Giyim",
-  "Marka": "Nayki",
-  "Fiyat": 799.00,
-  "StokAdedi": 22,
-  "GorselYolu": "nayki-canta-lacivert.png",
-  "Renkler": [
-    { "Ad": "Lacivert", "GorselYolu": "nayki-canta-lacivert.png" },
-    { "Ad": "Pembe", "GorselYolu": "nayki-canta-pembe.png" },
-    { "Ad": "Siyah", "GorselYolu": "nayki-canta-siyah.png" },
-    { "Ad": "Beyaz", "GorselYolu": "nayki-canta-beyaz.png" }
-  ]
-},
-{
-  "Id": 9,
-  "UrunAdi": "Nayki Kısa Kollu Tişört",
-  "UrunKodu": "GYM053",
-  "Aciklama": "%100 pamuklu, nefes alabilir kumaştan günlük kullanım tişört.",
-  "Kategori": "Giyim",
-  "Marka": "Nayki",
-  "Fiyat": 449.00,
-  "StokAdedi": 38,
-  "GorselYolu": "nayki-tisort-kirmizi.png",
-  "Renkler": [
-    { "Ad": "Kirmizi", "GorselYolu": "nayki-tisort-kirmizi.png" },
-    { "Ad": "Siyah", "GorselYolu": "nayki-tisort-siyah.png" },
-    { "Ad": "Beyaz", "GorselYolu": "nayki-tisort-beyaz.png" },
-    { "Ad": "Gri", "GorselYolu": "nayki-tisort-gri.png" }
-  ]
-},
-{
-  "Id": 10,
-  "UrunAdi": "Nayki Bone",
-  "UrunKodu": "GYM054",
-  "Aciklama": "Hafif ve rahat, sıcak tutan günlük kullanım bonesi.",
-  "Kategori": "Giyim",
-  "Marka": "Nayki",
-  "Fiyat": 349.00,
-  "StokAdedi": 42,
-  "GorselYolu": "nayki-bone-siyah.png",
-  "Renkler": [
-    { "Ad": "Pembe", "GorselYolu": "nayki-bone-pembe.png" },
-    { "Ad": "Siyah", "GorselYolu": "nayki-bone-siyah.png" },
-    { "Ad": "Yesil", "GorselYolu": "nayki-bone-yesil.png" },
-    { "Ad": "Beyaz", "GorselYolu": "nayki-bone-beyaz.png" },
-    { "Ad": "Gri", "GorselYolu": "nayki-bone-gri.png" },
-    { "Ad": "Kirmizi", "GorselYolu": "nayki-bone-kirmizi.png" },
-    { "Ad": "Mavi", "GorselYolu": "nayki-bone-mavi.png" }
-  ]
-},
-{
-  "Id": 11,
-  "UrunAdi": "Adisad Hydro One",
-  "UrunKodu": "EVK015",
-  "Aciklama": "Sızdırmaz kapaklı, hafif gövdeli günlük kullanım matarası.",
-  "Kategori": "Ev Yaşam",
-  "Marka": "Adisad",
-  "Fiyat": 599.00,
-  "StokAdedi": 32,
-  "GorselYolu": "adisad-termos-lacivert.png",
-  "Renkler": [
-    { "Ad": "Lacivert", "GorselYolu": "adisad-termos-lacivert.png" },
-    { "Ad": "Siyah", "GorselYolu": "adisad-termos-siyah.png" },
-    { "Ad": "Yesil", "GorselYolu": "adisad-termos-yesil.png" },
-    { "Ad": "Beyaz", "GorselYolu": "adisad-termos-beyaz.png" }
-  ]
-},
-{
-  "Id": 12,
-  "UrunAdi": "Adisad Samba One",
-  "UrunKodu": "GYM055",
-  "Aciklama": "Süet burunlu, konforlu tabanlı şehir tarzı spor ayakkabı.",
-  "Kategori": "Giyim",
-  "Marka": "Adisad",
-  "Fiyat": 1799.00,
-  "StokAdedi": 18,
-  "GorselYolu": "adisad-sneaker-lacivert.png",
-  "Renkler": [
-    { "Ad": "Bordo", "GorselYolu": "adisad-sneaker-bordo.png" },
-    { "Ad": "Lacivert", "GorselYolu": "adisad-sneaker-lacivert.png" },
-    { "Ad": "Siyah", "GorselYolu": "adisad-sneaker-siyah.png" },
-    { "Ad": "Yesil", "GorselYolu": "adisad-sneaker-yesil.png" }
-  ]
-},
-{
-  "Id": 13,
-  "UrunAdi": "Airpodz Pro Kulaklık",
-  "UrunKodu": "TEK015",
-  "Aciklama": "Aktif gürültü engelleme, dokunmatik kontrol ve uzun pil ömürlü kulaklık.",
-  "Kategori": "Elektronik",
-  "Marka": "Airpodz",
-  "Fiyat": 2499.00,
-  "StokAdedi": 27,
-  "GorselYolu": "airpodz.png"
-},
-{
-  "Id": 14,
-  "UrunAdi": "Panther Flow Mat",
-  "UrunKodu": "SPR028",
-  "Aciklama": "Katlanabilir, kaymaz yüzeyli, ev ve stüdyo kullanımına uygun yoga matı.",
-  "Kategori": "Fitness",
-  "Marka": "Panther",
-  "Fiyat": 399.00,
-  "StokAdedi": 30,
-  "GorselYolu": "panther-yogamat-pembe.png",
-  "Renkler": [
-    { "Ad": "Pembe", "GorselYolu": "panther-yogamat-pembe.png" },
-    { "Ad": "Yesil", "GorselYolu": "panther-yogamat-yesil.png" }
-  ]
-},
-{
-  "Id": 15,
-  "UrunAdi": "JiBieL Boombox Hoparlör",
-  "UrunKodu": "TEK016",
-  "Aciklama": "Güçlü bas, suya dayanıklı ve taşınabilir tasarımlı bluetooth hoparlör.",
-  "Kategori": "Elektronik",
-  "Marka": "JiBieL",
-  "Fiyat": 1299.00,
-  "StokAdedi": 20,
-  "GorselYolu": "JiBieL.png"
-},
-{
-  "Id": 16,
-  "UrunAdi": "Reebook 6'lı Dambıl Seti",
-  "UrunKodu": "SPR029",
-  "Aciklama": "2x1kg, 2x2kg, 2x3kg dambıllardan oluşan, taşıma çantalı ev spor seti.",
-  "Kategori": "Fitness",
-  "Marka": "Reebook",
-  "Fiyat": 1099.00,
-  "StokAdedi": 16,
-  "GorselYolu": "siyah-dambil.png",
-  "Renkler": [
-    { "Ad": "Siyah", "GorselYolu": "siyah-dambil.png" },
-    { "Ad": "Yesil", "GorselYolu": "yesil-dambil.png" },
-    { "Ad": "Mor", "GorselYolu": "lila-dambil.png" },
-    { "Ad": "Mavi", "GorselYolu": "mavi-dambil.png" }
-  ]
-},
-{
-  "Id": 17,
-  "UrunAdi": "Kolombia Kişisel Bakım Çantası",
-  "UrunKodu": "EVK016",
-  "Aciklama": "Su geçirmez kumaştan, çoklu bölmeli kompakt kişisel bakım çantası.",
-  "Kategori": "Ev Yaşam",
-  "Marka": "Kolombia",
-  "Fiyat": 449.00,
-  "StokAdedi": 24,
-  "GorselYolu": "bia-ssiyah-canta.png",
-  "Renkler": [
-    { "Ad": "Kahverengi", "GorselYolu": "bia-kahve-canta.png" },
-    { "Ad": "Kirmizi", "GorselYolu": "bia-kirmizi-canta.png" },
-    { "Ad": "Siyah", "GorselYolu": "bia-ssiyah-canta.png" },
-    { "Ad": "Beyaz", "GorselYolu": "bia-beyaz-canta.png" },
-    { "Ad": "Gri", "GorselYolu": "bia-gri-canta.png" }
-  ]
-},
+    "Id": 4,
+    "UrunAdi": "Jorden Flight Ball",
+    "UrunKodu": "SPR027",
+    "Aciklama": "G\u00FC\u00E7l\u00FC tutu\u015Flu, i\u00E7/d\u0131\u015F mekan kullan\u0131m\u0131na uygun dayan\u0131kl\u0131 basketbol topu.",
+    "Kategori": "Fitness",
+    "Marka": "Jorden",
+    "Fiyat": 899.00,
+    "StokAdedi": 20,
+    "GorselYolu": "jorden-top.png",
+    "Renkler": []
+  },
+  {
+    "Id": 5,
+    "UrunAdi": "Nayki Hoodie",
+    "UrunKodu": "GYM049",
+    "Aciklama": "Yumu\u015Fak kuma\u015Fl\u0131, s\u0131cak tutan g\u00FCnl\u00FCk kullan\u0131m hoodie.",
+    "Kategori": "Giyim",
+    "Marka": "Nayki",
+    "Fiyat": 1099.00,
+    "StokAdedi": 30,
+    "GorselYolu": "nayki-hoodie-gri.png",
+    "Renkler": [
+      {
+        "Ad": "Gri",
+        "GorselYolu": "nayki-hoodie-gri.png"
+      },
+      {
+        "Ad": "Kirmizi",
+        "GorselYolu": "nayki-hoodie-kirmizi.png"
+      },
+      {
+        "Ad": "Siyah",
+        "GorselYolu": "nayki-hoodie-siyah.png"
+      },
+      {
+        "Ad": "Beyaz",
+        "GorselYolu": "nayki-hoodie-beyaz.png"
+      }
+    ]
+  },
+  {
+    "Id": 6,
+    "UrunAdi": "Nayki E\u015Fofman Alt\u0131",
+    "UrunKodu": "GYM050",
+    "Aciklama": "Esnek kuma\u015Fl\u0131, rahat kal\u0131pl\u0131 g\u00FCnl\u00FCk e\u015Fofman alt\u0131.",
+    "Kategori": "Giyim",
+    "Marka": "Nayki",
+    "Fiyat": 899.00,
+    "StokAdedi": 28,
+    "GorselYolu": "nayki-esofman-gri.png",
+    "Renkler": [
+      {
+        "Ad": "Gri",
+        "GorselYolu": "nayki-esofman-gri.png"
+      },
+      {
+        "Ad": "Kirmizi",
+        "GorselYolu": "nayki-esofman-kirmizi.png"
+      },
+      {
+        "Ad": "Siyah",
+        "GorselYolu": "nayki-esofman-siyah.png"
+      },
+      {
+        "Ad": "Beyaz",
+        "GorselYolu": "nayki-esofman-beyaz.png"
+      }
+    ]
+  },
+  {
+    "Id": 7,
+    "UrunAdi": "Nayki Spor \u00C7orap Seti (3\u0027l\u00FC)",
+    "UrunKodu": "GYM051",
+    "Aciklama": "Nefes alabilir kuma\u015Fl\u0131, destekli yap\u0131da 3\u0027l\u00FC spor \u00E7orap seti.",
+    "Kategori": "Giyim",
+    "Marka": "Nayki",
+    "Fiyat": 249.00,
+    "StokAdedi": 45,
+    "GorselYolu": "nayki-corap.png",
+    "Renkler": []
+  },
+  {
+    "Id": 8,
+    "UrunAdi": "Nayki S\u0131rt \u00C7antas\u0131",
+    "UrunKodu": "GYM052",
+    "Aciklama": "Laptop b\u00F6lmeli, suya dayan\u0131kl\u0131 kuma\u015Ftan geni\u015F hacimli s\u0131rt \u00E7antas\u0131.",
+    "Kategori": "Giyim",
+    "Marka": "Nayki",
+    "Fiyat": 799.00,
+    "StokAdedi": 22,
+    "GorselYolu": "nayki-canta-lacivert.png",
+    "Renkler": [
+      {
+        "Ad": "Lacivert",
+        "GorselYolu": "nayki-canta-lacivert.png"
+      },
+      {
+        "Ad": "Pembe",
+        "GorselYolu": "nayki-canta-pembe.png"
+      },
+      {
+        "Ad": "Siyah",
+        "GorselYolu": "nayki-canta-siyah.png"
+      },
+      {
+        "Ad": "Beyaz",
+        "GorselYolu": "nayki-canta-beyaz.png"
+      }
+    ]
+  },
+  {
+    "Id": 9,
+    "UrunAdi": "Nayki K\u0131sa Kollu Ti\u015F\u00F6rt",
+    "UrunKodu": "GYM053",
+    "Aciklama": "%100 pamuklu, nefes alabilir kuma\u015Ftan g\u00FCnl\u00FCk kullan\u0131m ti\u015F\u00F6rt.",
+    "Kategori": "Giyim",
+    "Marka": "Nayki",
+    "Fiyat": 449.00,
+    "StokAdedi": 38,
+    "GorselYolu": "nayki-tisort-kirmizi.png",
+    "Renkler": [
+      {
+        "Ad": "Kirmizi",
+        "GorselYolu": "nayki-tisort-kirmizi.png"
+      },
+      {
+        "Ad": "Siyah",
+        "GorselYolu": "nayki-tisort-siyah.png"
+      },
+      {
+        "Ad": "Beyaz",
+        "GorselYolu": "nayki-tisort-beyaz.png"
+      },
+      {
+        "Ad": "Gri",
+        "GorselYolu": "nayki-tisort-gri.png"
+      }
+    ]
+  },
+  {
+    "Id": 10,
+    "UrunAdi": "Nayki Bone",
+    "UrunKodu": "GYM054",
+    "Aciklama": "Hafif ve rahat, s\u0131cak tutan g\u00FCnl\u00FCk kullan\u0131m bonesi.",
+    "Kategori": "Giyim",
+    "Marka": "Nayki",
+    "Fiyat": 349.00,
+    "StokAdedi": 42,
+    "GorselYolu": "nayki-bone-siyah.png",
+    "Renkler": [
+      {
+        "Ad": "Pembe",
+        "GorselYolu": "nayki-bone-pembe.png"
+      },
+      {
+        "Ad": "Siyah",
+        "GorselYolu": "nayki-bone-siyah.png"
+      },
+      {
+        "Ad": "Yesil",
+        "GorselYolu": "nayki-bone-yesil.png"
+      },
+      {
+        "Ad": "Beyaz",
+        "GorselYolu": "nayki-bone-beyaz.png"
+      },
+      {
+        "Ad": "Gri",
+        "GorselYolu": "nayki-bone-gri.png"
+      },
+      {
+        "Ad": "Kirmizi",
+        "GorselYolu": "nayki-bone-kirmizi.png"
+      },
+      {
+        "Ad": "Mavi",
+        "GorselYolu": "nayki-bone-mavi.png"
+      }
+    ]
+  },
+  {
+    "Id": 11,
+    "UrunAdi": "Adisad Hydro One",
+    "UrunKodu": "EVK015",
+    "Aciklama": "S\u0131zd\u0131rmaz kapakl\u0131, hafif g\u00F6vdeli g\u00FCnl\u00FCk kullan\u0131m mataras\u0131.",
+    "Kategori": "Ev Ya\u015Fam",
+    "Marka": "Adisad",
+    "Fiyat": 599.00,
+    "StokAdedi": 32,
+    "GorselYolu": "adisad-termos-lacivert.png",
+    "Renkler": [
+      {
+        "Ad": "Lacivert",
+        "GorselYolu": "adisad-termos-lacivert.png"
+      },
+      {
+        "Ad": "Siyah",
+        "GorselYolu": "adisad-termos-siyah.png"
+      },
+      {
+        "Ad": "Yesil",
+        "GorselYolu": "adisad-termos-yesil.png"
+      },
+      {
+        "Ad": "Beyaz",
+        "GorselYolu": "adisad-termos-beyaz.png"
+      }
+    ]
+  },
+  {
+    "Id": 12,
+    "UrunAdi": "Adisad Samba One",
+    "UrunKodu": "GYM055",
+    "Aciklama": "S\u00FCet burunlu, konforlu tabanl\u0131 \u015Fehir tarz\u0131 spor ayakkab\u0131.",
+    "Kategori": "Giyim",
+    "Marka": "Adisad",
+    "Fiyat": 1799.00,
+    "StokAdedi": 18,
+    "GorselYolu": "adisad-sneaker-lacivert.png",
+    "Renkler": [
+      {
+        "Ad": "Bordo",
+        "GorselYolu": "adisad-sneaker-bordo.png"
+      },
+      {
+        "Ad": "Lacivert",
+        "GorselYolu": "adisad-sneaker-lacivert.png"
+      },
+      {
+        "Ad": "Siyah",
+        "GorselYolu": "adisad-sneaker-siyah.png"
+      },
+      {
+        "Ad": "Yesil",
+        "GorselYolu": "adisad-sneaker-yesil.png"
+      }
+    ]
+  },
+  {
+    "Id": 13,
+    "UrunAdi": "Airpodz Pro Kulakl\u0131k",
+    "UrunKodu": "TEK015",
+    "Aciklama": "Aktif g\u00FCr\u00FClt\u00FC engelleme, dokunmatik kontrol ve uzun pil \u00F6m\u00FCrl\u00FC kulakl\u0131k.",
+    "Kategori": "Elektronik",
+    "Marka": "Airpodz",
+    "Fiyat": 2499.00,
+    "StokAdedi": 27,
+    "GorselYolu": "airpodz.png",
+    "Renkler": []
+  },
+  {
+    "Id": 14,
+    "UrunAdi": "Panther Flow Mat",
+    "UrunKodu": "SPR028",
+    "Aciklama": "Katlanabilir, kaymaz y\u00FCzeyli, ev ve st\u00FCdyo kullan\u0131m\u0131na uygun yoga mat\u0131.",
+    "Kategori": "Fitness",
+    "Marka": "Panther",
+    "Fiyat": 399.00,
+    "StokAdedi": 30,
+    "GorselYolu": "panther-yogamat-pembe.png",
+    "Renkler": [
+      {
+        "Ad": "Pembe",
+        "GorselYolu": "panther-yogamat-pembe.png"
+      },
+      {
+        "Ad": "Yesil",
+        "GorselYolu": "panther-yogamat-yesil.png"
+      }
+    ]
+  },
+  {
+    "Id": 15,
+    "UrunAdi": "JiBieL Boombox Hoparl\u00F6r",
+    "UrunKodu": "TEK016",
+    "Aciklama": "G\u00FC\u00E7l\u00FC bas, suya dayan\u0131kl\u0131 ve ta\u015F\u0131nabilir tasar\u0131ml\u0131 bluetooth hoparl\u00F6r.",
+    "Kategori": "Elektronik",
+    "Marka": "JiBieL",
+    "Fiyat": 1299.00,
+    "StokAdedi": 20,
+    "GorselYolu": "JiBieL.png",
+    "Renkler": []
+  },
+  {
+    "Id": 16,
+    "UrunAdi": "Reebook 6\u0027l\u0131 Damb\u0131l Seti",
+    "UrunKodu": "SPR029",
+    "Aciklama": "2x1kg, 2x2kg, 2x3kg damb\u0131llardan olu\u015Fan, ta\u015F\u0131ma \u00E7antal\u0131 ev spor seti.",
+    "Kategori": "Fitness",
+    "Marka": "Reebook",
+    "Fiyat": 1099.00,
+    "StokAdedi": 16,
+    "GorselYolu": "siyah-dambil.png",
+    "Renkler": [
+      {
+        "Ad": "Siyah",
+        "GorselYolu": "siyah-dambil.png"
+      },
+      {
+        "Ad": "Yesil",
+        "GorselYolu": "yesil-dambil.png"
+      },
+      {
+        "Ad": "Mor",
+        "GorselYolu": "lila-dambil.png"
+      },
+      {
+        "Ad": "Mavi",
+        "GorselYolu": "mavi-dambil.png"
+      }
+    ]
+  },
+  {
+    "Id": 17,
+    "UrunAdi": "Kolombia Ki\u015Fisel Bak\u0131m \u00C7antas\u0131",
+    "UrunKodu": "EVK016",
+    "Aciklama": "Su ge\u00E7irmez kuma\u015Ftan, \u00E7oklu b\u00F6lmeli kompakt ki\u015Fisel bak\u0131m \u00E7antas\u0131.",
+    "Kategori": "Ev Ya\u015Fam",
+    "Marka": "Kolombia",
+    "Fiyat": 449.00,
+    "StokAdedi": 24,
+    "GorselYolu": "bia-ssiyah-canta.png",
+    "Renkler": [
+      {
+        "Ad": "Kahverengi",
+        "GorselYolu": "bia-kahve-canta.png"
+      },
+      {
+        "Ad": "Kirmizi",
+        "GorselYolu": "bia-kirmizi-canta.png"
+      },
+      {
+        "Ad": "Siyah",
+        "GorselYolu": "bia-ssiyah-canta.png"
+      },
+      {
+        "Ad": "Beyaz",
+        "GorselYolu": "bia-beyaz-canta.png"
+      },
+      {
+        "Ad": "Gri",
+        "GorselYolu": "bia-gri-canta.png"
+      }
+    ]
+  },
   {
     "Id": 18,
-    "UrunAdi": "Fitbiy Nabız Bilekliği",
+    "UrunAdi": "Fitbiy Nab\u0131z Bilekli\u011Fi",
     "UrunKodu": "SPR030",
-    "Aciklama": "Nabız takibi, su geçirmezlik ve 7 gün pil ömrüne sahip akıllı fitness bilekliği.",
+    "Aciklama": "Nab\u0131z takibi, su ge\u00E7irmezlik ve 7 g\u00FCn pil \u00F6mr\u00FCne sahip ak\u0131ll\u0131 fitness bilekli\u011Fi.",
     "Kategori": "Fitness",
     "Marka": "Fitbiy",
     "Fiyat": 799.0,
@@ -287,12 +453,11 @@
       }
     ]
   },
-    
   {
     "Id": 19,
-    "UrunAdi": "Panther Direnç Bandı Seti (3'lü)",
+    "UrunAdi": "Panther Diren\u00E7 Band\u0131 Seti (3\u0027l\u00FC)",
     "UrunKodu": "SPR031",
-    "Aciklama": "Light, Medium ve Heavy sertlikte 3 farklı direnç bandından oluşan, dayanıklı kumaş yapılı ev antrenman seti.",
+    "Aciklama": "Light, Medium ve Heavy sertlikte 3 farkl\u0131 diren\u00E7 band\u0131ndan olu\u015Fan, dayan\u0131kl\u0131 kuma\u015F yap\u0131l\u0131 ev antrenman seti.",
     "Kategori": "Fitness",
     "Marka": "Panther",
     "Fiyat": 549.0,
@@ -300,13 +465,12 @@
     "GorselYolu": "panther-diren-set.png",
     "Renkler": []
   },
-    
   {
     "Id": 20,
-    "UrunAdi": "Kolombia Seyahat Yastığı",
+    "UrunAdi": "Kolombia Seyahat Yast\u0131\u011F\u0131",
     "UrunKodu": "EVK017",
-    "Aciklama": "Katlanabilir tasarımlı, yumuşak destekli, uzun yolculuklar için konforlu boyun yastığı.",
-    "Kategori": "Ev Yaşam",
+    "Aciklama": "Katlanabilir tasar\u0131ml\u0131, yumu\u015Fak destekli, uzun yolculuklar i\u00E7in konforlu boyun yast\u0131\u011F\u0131.",
+    "Kategori": "Ev Ya\u015Fam",
     "Marka": "Kolombia",
     "Fiyat": 379.0,
     "StokAdedi": 30,
@@ -329,12 +493,12 @@
         "GorselYolu": "bia-boyunyas-beyaz.png"
       }
     ]
-  }  ,
+  },
   {
     "Id": 21,
-    "UrunAdi": "Pear Watch Akıllı Saat",
+    "UrunAdi": "Pear Watch Ak\u0131ll\u0131 Saat",
     "UrunKodu": "TEK001",
-    "Aciklama": "Kalp ritmi takibi, su geçirmezlik ve akıllı bildirim özellikleriyle günlük kullanım için tasarlanmış akıllı saat.",
+    "Aciklama": "Kalp ritmi takibi, su ge\u00E7irmezlik ve ak\u0131ll\u0131 bildirim \u00F6zellikleriyle g\u00FCnl\u00FCk kullan\u0131m i\u00E7in tasarlanm\u0131\u015F ak\u0131ll\u0131 saat.",
     "Kategori": "Elektronik",
     "Marka": "Pear",
     "Fiyat": 3499.0,

@@ -1,13 +1,18 @@
 @model BayiUrunKatalogu.Models.Urun
 
-<h2>Yeni Ürün Ekle</h2>
+<h2>Ürün Düzenle</h2>
 
-<form asp-action="Ekle" method="post">
+<form asp-action="Duzenle" method="post">
+    <input type="hidden" asp-for="Id" />
+
     <div>
         <label>Ürün Adı</label>
         <input asp-for="UrunAdi" />
     </div>
-    
+    <div>
+        <label>Ürün Kodu</label>
+        <input asp-for="UrunKodu" />
+    </div>
     <div>
         <label>Açıklama</label>
         <textarea asp-for="Aciklama"></textarea>
@@ -33,9 +38,9 @@
         <input asp-for="GorselYolu" />
     </div>
 
-    <button type="submit">Kaydet</button>
+    <button type="submit">Güncelle</button>
     <div>
-    <label>Renkler (format: RenkAdi:gorsel.jpg, virgülle ayırarak birden fazla ekleyin — örn: Siyah:siyah.png, Beyaz:beyaz.png)</label>
-    <input type="text" name="renklerText" />
+    <label>Renkler (format: RenkAdi:gorsel.jpg, virgülle ayırarak birden fazla ekleyin)</label>
+    <input type="text" name="renklerText" value="@(string.Join(", ", Model.Renkler.Select(r => r.Ad + ":" + r.GorselYolu)))" />
 </div>
 </form>
