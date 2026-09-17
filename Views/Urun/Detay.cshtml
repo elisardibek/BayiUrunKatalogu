@@ -1,9 +1,44 @@
 @model BayiUrunKatalogu.Models.Urun
 
-<h2>@Model.UrunAdi</h2>
-<p>Kod: @Model.UrunKodu</p>
-<p>Kategori: @Model.Kategori</p>
-<p>Marka: @Model.Marka</p>
-<p>Fiyat: @Model.Fiyat TL</p>
-<p>Stok: @Model.StokAdedi</p>
-<p>@Model.Aciklama</p>
+<div class="urun-detay">
+    <div class="urun-detay-gorsel">
+        <img id="detay-gorsel" src="~/images/urunler/@Model.GorselYolu" alt="@Model.UrunAdi"
+             onerror="this.src='/images/urunler/placeholder.jpg'" />
+    </div>
+
+    <div class="urun-detay-bilgi">
+        <span class="badge-kategori">@Model.Kategori</span>
+        <h2>@Model.UrunAdi</h2>
+        <p class="urun-detay-marka">Marka: <strong>@Model.Marka</strong></p>
+        <p class="urun-detay-kod">Ürün Kodu: @Model.UrunKodu</p>
+
+        <p class="urun-detay-fiyat">@Model.Fiyat.ToString("N2") TL</p>
+
+        @if (Model.StokAdedi > 0)
+        {
+            <span class="stok-durumu stok-var">Stokta (@Model.StokAdedi adet)</span>
+        }
+        else
+        {
+            <span class="stok-durumu stok-yok">Stokta Yok</span>
+        }
+
+        @if (Model.Renkler != null && Model.Renkler.Count > 0)
+        {
+            <div class="urun-detay-renkler">
+                <p>Renk Seçenekleri:</p>
+                @foreach (var renk in Model.Renkler)
+                {
+                    <span class="renk-dairesi"
+                          style="background-color: @BayiUrunKatalogu.Models.RenkYardimcisi.Kod(renk.Ad);"
+                          title="@renk.Ad"
+                          onclick="document.getElementById('detay-gorsel').src='/images/urunler/@renk.GorselYolu'"></span>
+                }
+            </div>
+        }
+
+        <p class="urun-detay-aciklama">@Model.Aciklama</p>
+
+        <a asp-action="Index" class="geri-link">← Ürünlere Geri Dön</a>
+    </div>
+</div>
