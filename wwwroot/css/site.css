@@ -373,3 +373,52 @@ form button[type="submit"] {
     display: inline-block;
     margin-top: 10px;
 }
+.gizlilik-sayfasi {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.gizlilik-sayfasi h1 {
+    margin-bottom: 20px;
+}
+
+.gizlilik-sayfasi h3 {
+    color: #39ff88;
+    margin-top: 30px;
+    margin-bottom: 8px;
+    border-left: 3px solid #39ff88;
+    padding-left: 10px;
+}
+
+.gizlilik-sayfasi p {
+    line-height: 1.7;
+    color: #d0d0d0;
+    margin-bottom: 10px;
+}
+
+.gizlilik-sayfasi a {
+    color: #39ff88;
+    text-decoration: underline;
+}
+.urun-detay-bedenler {
+    margin: 15px 0;
+}
+
+.beden-etiketi {
+    display: inline-block;
+    border: 1px solid #39ff88;
+    color: #39ff88;
+    padding: 4px 12px;
+    margin-right: 8px;
+    margin-top: 6px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: default;
+    transition: all 0.2s ease;
+}
+
+.beden-etiketi:hover {
+    border-color: #ff39c7;
+    color: #ff39c7;
+}

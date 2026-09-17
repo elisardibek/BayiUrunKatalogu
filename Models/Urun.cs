@@ -12,5 +12,6 @@ public class Urun
     public int StokAdedi { get; set; }
     public string GorselYolu { get; set; }
     public List<RenkSecenegi> Renkler { get; set; } = new List<RenkSecenegi>();
+    public List<string> Bedenler { get; set; } = new List<string>();
 }
 }

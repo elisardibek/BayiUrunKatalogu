@@ -36,6 +36,16 @@
                 }
             </div>
         }
+                @if (Model.Bedenler != null && Model.Bedenler.Count > 0)
+        {
+            <div class="urun-detay-bedenler">
+                <p>Mevcut Bedenler:</p>
+                @foreach (var beden in Model.Bedenler)
+                {
+                    <span class="beden-etiketi">@beden</span>
+                }
+            </div>
+        }
 
         <p class="urun-detay-aciklama">@Model.Aciklama</p>
 

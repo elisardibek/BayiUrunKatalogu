@@ -8,6 +8,7 @@
     "Marka": "Beatix",
     "Fiyat": 1000.00,
     "StokAdedi": 30,
+    "Bedenler": [],
     "GorselYolu": "beatix-lacivert.png",
     "Renkler": [
       {
@@ -29,6 +30,7 @@
     "Marka": "RunFit",
     "Fiyat": 1249.00,
     "StokAdedi": 40,
+    "Bedenler": ["38", "39", "40", "41", "42", "43", "44"],
     "GorselYolu": "nayki-beyaz.png",
     "Renkler": [
       {
@@ -66,6 +68,7 @@
     "Marka": "Scanley",
     "Fiyat": 349.50,
     "StokAdedi": 60,
+    "Bedenler": [],
     "GorselYolu": "scanley-beyaz.png",
     "Renkler": [
       {
@@ -95,6 +98,7 @@
     "Marka": "Jorden",
     "Fiyat": 899.00,
     "StokAdedi": 20,
+    "Bedenler": [],
     "GorselYolu": "jorden-top.png",
     "Renkler": []
   },
@@ -107,6 +111,7 @@
     "Marka": "Nayki",
     "Fiyat": 1099.00,
     "StokAdedi": 30,
+    "Bedenler": ["S", "M", "L", "XL"],
     "GorselYolu": "nayki-hoodie-gri.png",
     "Renkler": [
       {
@@ -136,6 +141,7 @@
     "Marka": "Nayki",
     "Fiyat": 899.00,
     "StokAdedi": 28,
+    "Bedenler": ["S", "M", "L", "XL"],
     "GorselYolu": "nayki-esofman-gri.png",
     "Renkler": [
       {
@@ -165,6 +171,7 @@
     "Marka": "Nayki",
     "Fiyat": 249.00,
     "StokAdedi": 45,
+    "Bedenler": [],
     "GorselYolu": "nayki-corap.png",
     "Renkler": []
   },
@@ -177,6 +184,7 @@
     "Marka": "Nayki",
     "Fiyat": 799.00,
     "StokAdedi": 22,
+    "Bedenler": [],
     "GorselYolu": "nayki-canta-lacivert.png",
     "Renkler": [
       {
@@ -206,6 +214,7 @@
     "Marka": "Nayki",
     "Fiyat": 449.00,
     "StokAdedi": 38,
+    "Bedenler": ["S", "M", "L", "XL"],
     "GorselYolu": "nayki-tisort-kirmizi.png",
     "Renkler": [
       {
@@ -235,6 +244,7 @@
     "Marka": "Nayki",
     "Fiyat": 349.00,
     "StokAdedi": 42,
+    "Bedenler": [],
     "GorselYolu": "nayki-bone-siyah.png",
     "Renkler": [
       {
@@ -276,6 +286,7 @@
     "Marka": "Adisad",
     "Fiyat": 599.00,
     "StokAdedi": 32,
+    "Bedenler": [],
     "GorselYolu": "adisad-termos-lacivert.png",
     "Renkler": [
       {
@@ -305,6 +316,7 @@
     "Marka": "Adisad",
     "Fiyat": 1799.00,
     "StokAdedi": 18,
+    "Bedenler": ["38", "39", "40", "41", "42", "43", "44"],
     "GorselYolu": "adisad-sneaker-lacivert.png",
     "Renkler": [
       {
@@ -334,6 +346,7 @@
     "Marka": "Airpodz",
     "Fiyat": 2499.00,
     "StokAdedi": 27,
+    "Bedenler": [],
     "GorselYolu": "airpodz.png",
     "Renkler": []
   },
@@ -346,6 +359,7 @@
     "Marka": "Panther",
     "Fiyat": 399.00,
     "StokAdedi": 30,
+    "Bedenler": [],
     "GorselYolu": "panther-yogamat-pembe.png",
     "Renkler": [
       {
@@ -367,6 +381,7 @@
     "Marka": "JiBieL",
     "Fiyat": 1299.00,
     "StokAdedi": 20,
+    "Bedenler": [],
     "GorselYolu": "JiBieL.png",
     "Renkler": []
   },
@@ -379,6 +394,7 @@
     "Marka": "Reebook",
     "Fiyat": 1099.00,
     "StokAdedi": 16,
+    "Bedenler": [],
     "GorselYolu": "siyah-dambil.png",
     "Renkler": [
       {
@@ -408,6 +424,7 @@
     "Marka": "Kolombia",
     "Fiyat": 449.00,
     "StokAdedi": 24,
+    "Bedenler": [],
     "GorselYolu": "bia-ssiyah-canta.png",
     "Renkler": [
       {
@@ -441,6 +458,7 @@
     "Marka": "Fitbiy",
     "Fiyat": 799.0,
     "StokAdedi": 20,
+    "Bedenler": [],
     "GorselYolu": "fitbiy-nabiz-bileklik-siyah.png",
     "Renkler": [
       {
@@ -462,6 +480,7 @@
     "Marka": "Panther",
     "Fiyat": 549.0,
     "StokAdedi": 22,
+    "Bedenler": [],
     "GorselYolu": "panther-diren-set.png",
     "Renkler": []
   },
@@ -474,6 +493,7 @@
     "Marka": "Kolombia",
     "Fiyat": 379.0,
     "StokAdedi": 30,
+    "Bedenler": [],
     "GorselYolu": "bia-boyunyas-kahve.png",
     "Renkler": [
       {
@@ -503,6 +523,7 @@
     "Marka": "Pear",
     "Fiyat": 3499.0,
     "StokAdedi": 12,
+    "Bedenler": [],
     "GorselYolu": "pear-watch.png",
     "Renkler": []
   }
