@@ -422,3 +422,19 @@ form button[type="submit"] {
     border-color: #ff39c7;
     color: #ff39c7;
 }
+.hata-sayfasi {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hata-sayfasi h1 {
+    font-size: 90px;
+    color: #39ff88;
+    margin-bottom: 10px;
+}
+
+.hata-sayfasi p {
+    font-size: 18px;
+    color: #d0d0d0;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,17 @@
+@{
+    ViewData["Title"] = "Sayfa Bulunamadı";
+    int kod = (int)(ViewData["HataKodu"] ?? 404);
+}
+
+<div class="hata-sayfasi">
+    <h1>@kod</h1>
+    @if (kod == 404)
+    {
+        <p>Aradığınız sayfa veya ürün bulunamadı.</p>
+    }
+    else
+    {
+        <p>Bir hata oluştu. Lütfen daha sonra tekrar deneyin.</p>
+    }
+    <a asp-controller="Urun" asp-action="Index" class="geri-link">← Anasayfaya Dön</a>
+</div>
